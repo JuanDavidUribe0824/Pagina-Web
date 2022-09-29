@@ -1,0 +1,31 @@
+@media(max-width: 768px){
+    header #marca,
+    header nav,
+    header nav li,
+    #boletin h1,
+    #boletin form,
+    #cajas .caja,
+    article#main-col,
+    aside#lateral{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    #boletin h1{
+        margin-top: 40px;
+    }
+    #boletin button{
+        display: block;
+        width: 100%;
+    }
+    #boletin form input[type="email"]{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    input, textarea{
+        width: 98%;
+    }
+}
